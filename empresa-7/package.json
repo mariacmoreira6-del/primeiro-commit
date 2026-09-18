@@ -1,5 +1,5 @@
 {
-  "name": "profissoes",
+  "name": "empresa-7",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/node": "^22.20.2",
+    "@types/node": "^22.20.3",
     "@types/readline-sync": "^1.4.8",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"

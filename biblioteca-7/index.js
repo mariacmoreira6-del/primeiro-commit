@@ -1,0 +1,13 @@
+import readLine from "readline-sync";
+import { Itembiblioteca } from "./src/models/Itembiblioteca.js";
+console.log("=== Cadastro De Produto ===");
+const novoItembiblioteca = new Itembiblioteca(1880, "Noites Brancas");
+console.log(`\nProduto cadastrado: ${novoItembiblioteca.getTitulo}`);
+console.log(`Registro: ${novoItembiblioteca.getAnoPublicacao}`);
+novoItembiblioteca.setAnoPublicacao = readLine.questionInt("\nDigite o ano de publicacao do Livro: ");
+console.log("\n================================================");
+console.log("      DADOS COMPLETOS Livro          ");
+console.log("================================================");
+console.log(`AnoPublicacao:                  ${novoItembiblioteca.getAnoPublicacao}`);
+console.log(`Titulo:                 ${novoItembiblioteca.getTitulo}`);
+console.log("================================================\n");
